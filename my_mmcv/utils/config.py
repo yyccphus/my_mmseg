@@ -308,9 +308,12 @@ class Config:
                 }
                 # delete imported module
                 del sys.modules[temp_module_name]
-            elif filename.endswith(('.yml', '.yaml', '.json')):
-                import mmcv
-                cfg_dict = mmcv.load(temp_config_file.name)
+            """
+                only .py            
+            """
+            # elif filename.endswith(('.yml', '.yaml', '.json')):
+            #     import mmcv
+            #     cfg_dict = mmcv.load(temp_config_file.name)
             # close temp file
             temp_config_file.close()
 

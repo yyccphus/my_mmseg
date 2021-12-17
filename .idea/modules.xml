@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/my_mmseg.iml" filepath="$PROJECT_DIR$/.idea/my_mmseg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../my_mmsegmentation/.idea/my_mmsegmentation.iml" filepath="$PROJECT_DIR$/../my_mmsegmentation/.idea/my_mmsegmentation.iml" />
     </modules>
   </component>
 </project>
